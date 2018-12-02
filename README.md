@@ -12,3 +12,9 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+### File description:
+- `data/process_data.py`: contains the ETL pipeline loading and preparing the data used for model building.
+- `models/train_classifier.py`: contains the ML pipeline fits, tunes, evaluates and exports the model to a Python pickle
+- `run.py` : contains a script which starts the Python server for the web app
+- `app/templates/*.html` contains the HTML templates
